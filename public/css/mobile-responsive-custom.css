@@ -1,0 +1,92 @@
+/* navbar - side menu */
+.nav-search,
+.not-logged {
+  padding: 7px;
+}
+.not-logged a {
+  color: white;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .not-logged a {
+    color: black;
+  }
+}
+
+/* navbar - brand */
+.right-menu {
+  padding-right: 0px !important;
+  padding-top: 0.15rem;
+}
+.nav-search__btn-grp label {
+  float: right !important;
+}
+.nav-search input {
+  float: left;
+  width: 70%;
+}
+
+.nav-search label,
+.nav-search .form-control,
+.nav-search .btn,
+.nav-search li,
+.navbar-wrapper .btn,
+.navbar-wrapper a {
+  padding: 0.9rem 0.5rem;
+  font-size: 0.9rem !important;
+}
+/* .nav a {
+  font-size: 0.8rem;
+} */
+@media screen and (min-width: 1000px) and (max-width: 1642px) {
+  body {
+    font-size: 12px !important;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 999px) {
+  body {
+    font-size: 10px !important;
+  }
+}
+
+/* write summary */
+.summary-conclusiones__addnew {
+  margin-top: 20px;
+  text-align: center;
+}
+.summary-conclusiones__addnew .btn {
+  border-radius: 50%;
+}
+
+/* papers list */
+.pappers-list .card {
+  padding: 10px;
+}
+.pappers-list ul.post-bar {
+  overflow: hidden;
+  padding-left: 1rem;
+}
+.pappers-list ul.post-bar li {
+  float: left;
+  padding-left: 10px;
+}
+.pappers-list__left-btn {
+  margin: 10px;
+}
+.expandable-container span {
+  display: block;
+}
+
+.expandable-container span.pappers-list__body[aria-expanded="false"] {
+  display: block;
+  /** height: 100px !important; **/
+  overflow: hidden;
+}
+
+.expandable-container a.content-collapsed:after {
+  content: "+ Show More";
+}
+
+.expandable-container a:not(.content-collapsed):after {
+  content: "- Show Less";
+}

@@ -1,0 +1,26 @@
+<table class="table table-hove  rtable">
+  <thead>
+    <tr>
+      <th>Browser</th>
+      <th>Sessions</th>
+      <th>Percentage</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chrome</td>
+      <td>9,562</td>
+      <td>68.81%</td>
+    </tr>
+    <tr>
+      <td>Firefox</td>
+      <td>2,403</td>
+      <td>17.29%</td>
+    </tr>
+    <tr>
+      <td>Safari</td>
+      <td>1,089</td>
+      <td>2.63%</td>
+    </tr>
+  </tbody>
+</table>
