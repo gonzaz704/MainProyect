@@ -78,8 +78,8 @@ This credentials works on Desktop pc: In .env file add:
 MAIL_DRIVER=smtp
 MAIL_HOST=smtp.gmail.com
 MAIL_PORT=465
-MAIL_USERNAME=contact@notidata.com
-MAIL_PASSWORD=exoexlazqfmwhcpg
+MAIL_USERNAME=
+MAIL_PASSWORD=
 MAIL_ENCRYPTION=ssl
 
 (You have to wait two days aprox for approval and start sending automatic emails)
@@ -87,6 +87,6 @@ MAIL_ENCRYPTION=ssl
 
 ## 
 Login to the system using
--   username: gonzaz704@gmail.com
--   password: JnR390XB
+-   username: 
+-   password: 
 ```
